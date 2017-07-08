@@ -1,7 +1,9 @@
+
 package tw.mike.j2ee;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.URLEncoder;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,7 +18,9 @@ public class J2EE01 extends HttpServlet {
 //		System.out.println("DoGet");
 		
 		try(PrintWriter aa =  response.getWriter()){
-		aa.write("Hello,Word");
+			String text = URLEncoder.encode("http://opecnhome.cc","ISO-8859-1");//參數 保留字元需要特別使用
+//		aa.write("Hello,Word");
+			aa.write(text);
 		aa.flush();
 		}
 	}
