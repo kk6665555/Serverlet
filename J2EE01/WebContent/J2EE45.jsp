@@ -47,9 +47,9 @@
 	
 	</table>
 
-	&spades;<br>
+	<!--&spades;<br>
 	&hearts;<br>
 	&diams;<br>
-	&clubs;<br>
+	&clubs;<br>-->
 </body>
 </html>
