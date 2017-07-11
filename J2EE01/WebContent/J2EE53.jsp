@@ -17,5 +17,7 @@
 	out.println(x +"<br>");
 	out.println(intx);
 %>
+<hr>
+<a href="J2EE54.jsp">Goto J2EE54.jsp</a>
 </body>
 </html>

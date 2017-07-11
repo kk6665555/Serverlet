@@ -8,11 +8,12 @@
 </head>
 <body>
 <h1>Big Company</h1>
-<hr/>
+<hr>
+<!--帶參數過去-->
 <jsp:include page="J2EE52.jsp">
-	<jsp:param  name="x" value="123"/><!-- 帶參數過去 -->
-	<jsp:param  name="y" value="456"/>
 
+	<jsp:param value="123" name="x"/>
+	<jsp:param value="456" name="y"/>
 </jsp:include>
 
 

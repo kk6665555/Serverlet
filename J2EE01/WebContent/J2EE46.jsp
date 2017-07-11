@@ -14,7 +14,7 @@
 <body>
 	<%=getServletInfo() %>
 	<%
-	int a = 10,b=0;
+	int a = 10,b=2;
 	out.print(a/b);
 	
 	%>

@@ -9,7 +9,12 @@
 <body>
 	<%
 		Integer x = (Integer)application.getAttribute("x");
-	
+		//從application取出資料其,傳回值就是取回的資料,不過傳回值是物件型態(Object)需要轉換成正確的物件
+		//型態才可使用
+		out.println(x);
+		x++;
+		application.setAttribute("x",x);
+		//將資料存入application 
 	
 	
 	%>

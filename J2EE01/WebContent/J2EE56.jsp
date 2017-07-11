@@ -8,5 +8,9 @@
 </head>
 <body>
 J2EE56
+<%String a = request.getParameter("a");
+String b = request.getParameter("b");
+
+out.print("Hellow"+ a + ":" + b);  %>
 </body>
 </html>

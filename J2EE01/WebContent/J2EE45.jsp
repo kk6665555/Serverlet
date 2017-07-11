@@ -31,7 +31,7 @@
 	<table border="2" width=100%>
 		<tr>
 			<%
-			String[] suits = {"&spades;","&hearts;","&diams;","&clubs;"}; // suit[0]
+			String[] suits = {"<span style=color:red>&spades;</span>","&hearts;","&diams;","&clubs;"}; // suit[0]
 			String[] values = {"A ","2 ","3 ","4 ","5 ","6 ","7 ","8 ","9 ","10","J ","Q ","K "};
 			for(int[] cards:player){
 			Arrays.sort(cards);

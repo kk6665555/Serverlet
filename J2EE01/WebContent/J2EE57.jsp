@@ -4,7 +4,8 @@
 
 <%@page import="tw.mike.beans.*" %>
 <%
-	Member member = new Member();
+	Member member = new Member("002","MIKE");
+	application.setAttribute("member", member);
 	member.setId("001");member.setName("brad");
 %>
 <html>
@@ -13,7 +14,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-welcome,<%=member.getName() %>
+welcome,<%=member %>
 <%
 member.m1();
 %>

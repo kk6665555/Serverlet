@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import ="tw.mike.beans.*" %>
 <%
-		
+	Member member=(Member)application.getAttribute("member");		
 
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -12,6 +12,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<%=member%>
 </body>
 </html>

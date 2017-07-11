@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<hr/>
+
 I am header
+<hr/>
 </body>
 </html>
