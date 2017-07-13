@@ -23,11 +23,11 @@ public class J2EE07 extends HttpServlet {
 		int result = x + y ;
 		
 		response.setContentType("text/html;charset=utf-8");
-//		response.getWriter().write(result);
-		PrintWriter pw = response.getWriter();
-		pw.write(x + "+" + y + "=" + result);
-		pw.flush();
-		pw.close();
+		response.getWriter().write(String.valueOf(result));
+//		PrintWriter pw = response.getWriter();
+//		pw.write(x + "+" + y + "=" + result);
+//		pw.flush();
+//		pw.close();
 
 	}
 

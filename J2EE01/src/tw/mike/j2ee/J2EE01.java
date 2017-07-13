@@ -18,9 +18,9 @@ public class J2EE01 extends HttpServlet {
 //		System.out.println("DoGet");
 		
 		try(PrintWriter aa =  response.getWriter()){
-			String text = URLEncoder.encode("http://opecnhome.cc","ISO-8859-1");//°Ñ¼Æ «O¯d¦r¤¸»Ý­n¯S§O¨Ï¥Î
+			String text = URLEncoder.encode("http://opecnhome.cc","ISO-8859-1");//ï¿½Ñ¼ï¿½ ï¿½Oï¿½dï¿½rï¿½ï¿½ï¿½Ý­nï¿½Sï¿½Oï¿½Ï¥ï¿½
 //		aa.write("Hello,Word");
-			aa.write(text);
+		aa.write(text);
 		aa.flush();
 		}
 	}

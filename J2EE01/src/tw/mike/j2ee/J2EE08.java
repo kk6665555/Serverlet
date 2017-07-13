@@ -54,7 +54,7 @@ public class J2EE08 extends HttpServlet {
 		.append("</select>")
 		.append("<input  type = 'Text' name = 'y' value='"+ y +"'>")
 		.append("<input  type= 'submit' value='GO'/>")
-		.append("<span>" + result + "</span>");
+		.append("<span style='color:red'>" + result + "</span>");
 //		.append("</form>");
 		
 		

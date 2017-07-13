@@ -37,7 +37,7 @@ public class J2EE05 extends HttpServlet {
 			String paa = pa.nextElement();
 			String value = request.getParameter(paa);
 			
-			pw.write(paa + ";" + value + "<br>");
+			pw.write(paa + ":" + value + "<br>");
 		}
 		pw.flush();
 		pw.close();
