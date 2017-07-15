@@ -33,8 +33,7 @@ Account: ${map["account"] }<br/>
 ${10 + 3 / 7}<br />
 ${(param.i=="1") ? "Yes" : "No" }<br>
 ${ 1 > 3 }<br>
-${ "a" < "b" }<br>
-${ "12" > 3 }<br>
+
 
 
 
