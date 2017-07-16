@@ -7,12 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form>
-		<input type="text" name="x"/>
-		+
-		<input type="text" name="y"/>
-		<input type="submit" value="="/>	
-	
+	<form action="J2EE84.jsp" enctype="multipart/form-data" method="post">
+		<input type="file" name="upload">
+		<input type="submit" name="Upload">
 	</form>
 </body>
 </html>

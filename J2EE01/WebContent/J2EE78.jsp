@@ -12,6 +12,7 @@
 <body>
 <sql:setDataSource driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/oneone"
  user="root" password="root"/>
+ 
 <c:if test="${!empty param.delid }">
 	<sql:update>
 		delete from MEMBER where id = ?
@@ -20,7 +21,7 @@
 </c:if>
 
 
-<sql:query sql="SELECT * FROM MEMBER" var="result"></sql:query>
+<sql:query sql="select * from member" var="result"></sql:query>
 <table border="2" width="100%">
 	<tr>
 			<th>id
@@ -37,7 +38,7 @@
 			<td>${row.password }
 			<td>${row.realname }
 			<td><a href="?delid=${row.id }">Delect</a>
-			<td><a href="J2EE79.jsp?delid=${row.id }">Edit</a>
+			<td><a href="J2EE79.jsp?editid=${row.id }">Edit</a>
 </c:forEach>	
 </table>
 </body>
